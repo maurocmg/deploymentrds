@@ -9,7 +9,7 @@ function CarouselFadeExample() {
         <Carousel.Item>
           <img
             className="image_size_asjdlasj w-80 img-fluid "
-            src="src\assets\image\El Rincon del Sabiondo.jpg"
+            src="https://res.cloudinary.com/djbpbygx4/image/upload/v1688490992/kxvlhzi2yiptzxzaz9ko.jpg"
             alt="El rincon del sabiondo"
           />
           <Carousel.Caption>
