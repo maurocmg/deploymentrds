@@ -21,16 +21,16 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Landing />} />
-        <Route exact path="/home" element={<Home />} />
-        <Route exact path="/detail/:id" element={<DetailBook />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/detail/:id" element={<DetailBook />} />
         {/* <Route path="/buy/:id" element={<Buy />} /> */}
-        <Route exact path="/login" element={<LoginButton />} />
+        <Route path="/login" element={<LoginButton />} />
         {/* <Route path="/logout" element={<LogoutButton />} /> */}
-        <Route exact path="/profile" element={<Profile />} />
-        <Route exact path="/create" element={<FormCreate />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/contacto" element={<Contacto />} />
-        <Route exactpath="/cart_pay" element={<CartPayPage />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/create" element={<FormCreate />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/cart_pay" element={<CartPayPage />} />
       </Routes>
     </div>
   );
